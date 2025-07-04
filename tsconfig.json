@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "jsx": "react",                            // 使用 React JSX
     "target": "ES6",
     "allowJs": true,
     "module": "commonjs",
