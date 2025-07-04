@@ -35,7 +35,7 @@ export default {
   plugins: [
     new CleanWebpackPlugin(), // 在构建前清理输出目录
     new HtmlWebpackPlugin({
-      template: "./src/index.html",
+      template: "./src/renderer/index.html",
     }),
   ],
   resolve: {
